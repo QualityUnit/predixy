@@ -60,6 +60,5 @@ int EpollMultiplexor::wait(long usec, T* handler)
 
 
 typedef EpollMultiplexor Multiplexor;
-#define _MULTIPLEXOR_ASYNC_ASSIGN_
 
 #endif
